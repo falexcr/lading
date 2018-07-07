@@ -9160,3 +9160,29 @@ button.close {
   overflow: visible;
   clip: auto;
 }
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+.navbar {
+  text-transform: uppercase;
+}
+.intro {
+  color: #fff;
+  background-color: #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
