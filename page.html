@@ -1,66 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="iso-8859-1">
-  <meta name="description" content="Ejemplo de HTML5">
-  <meta name="keywords" content="HTML5, CSS3, JavaScript">
-  <title>Este texto es el título del documento</title>
-  <link rel="stylesheet" href="misestilos.css">
-</head>
-<body>
-<div id="agrupar">
-  <header id="cabecera">
-    <h1>Este es el título principal del sitio web</h1>
-    <nav id="menu">
-      <ul>
-        <li>principal</li>
-        <li>fotos</li>
-        <li>videos</li>
-        <li>contacto</li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Landing Page Chef company">
+    <meta name="author" content="Camargo Fabian">
+    <meta name="keywords" content="HTML5, CSS3, BOOTSTRAP" />
+    <link rel="icon" href="../../favicon.ico">
 
-  <section id="seccion">
-    <article>
-      <header>
-        <hgroup>
-          <h1>Título del mensaje uno</h1>
-          <h2>Subtítulo del mensaje uno</h2>
-        </hgroup>
-        <time datetime="2011-12-10" pubdate>publicado 10-12-2011
-        </time>
-      </header>
-      Este es el texto de mi primer mensaje
-      <figure>
-        <img src="http://minkbooks.com/content/myimage.jpg">
-        <figcaption>
-          Esta es la imagen del primer mensaje
-        </figcaption>
-      </figure>
-      <footer>
-        <p>comentarios (0)</p>
-      </footer>
-    </article>
-    <article>
-      <header>
-        <hgroup>
-          <h1>Título del mensaje dos</h1>
-          <h2>Subtítulo del mensaje dos</h2>
-        </hgroup>
-        <time datetime="2011-12-15" pubdate>publicado 15-12-2011
-        </time>
-      </header>
-      Este es el texto de mi segundo mensaje
-      <footer>
-        <p>comentarios (0)</p>
-      </footer>
-    </article>
-  </section>
-  <aside id="columna">
-    <blockquote>Mensaje número uno</blockquote>
-    <blockquote>Mensaje número dos</blockquote>
-  </aside>
-  <footer id="pie">
-    Derechos Reservados &copy; 2010-2011
-  </footer>
+    <title>Landing Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Logotipo</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Productos</a></li>
+                  <li><a href="#">La Marca</a></li>
+                  <li><a href="#">¿Donde comprar?</a></li>
+                  <li><a href="#">Contactanos</a></li>
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <section id="intro">
+      <div class="intro-cuerpo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <ul>
+                <li>Inicio</li>
+                <li>Productos</li>
+              </ul>
+              <h1>La Marca</h1>
+              <p>Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore
+                et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="marca">
+      <img class="" src="images/images7.png" alt="Mens Wear">
+      <h3>Lorem ipsum dolor sit amet</h3>
+
+    </section>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
