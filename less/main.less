@@ -124,6 +124,17 @@ a{
   padding: 9px 70px 0 32px;
 }
 
+.marca {
+  background: url(../images/texture.png) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+    -webkit-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    -moz-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    -o-transition: all 2s cubic-bezier(0.42,0,0.58,1);
+    transition: all 2s cubic-bezier(0.42,0,0.58,1);
+}
+
 .marca h2 {
   margin: 0;
   font-weight: 800;
@@ -136,7 +147,7 @@ a{
 .line {
   position: relative;
   margin-top: -70px;
-  margin-left: -4px;
+  right: 47px;
 }
 
 .line-tree{
@@ -215,6 +226,9 @@ a{
   height: auto;
   width: 270px;
   left: 100px;
+  -webkit-box-shadow: 0px 39px 40px -1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 39px 40px -1px rgba(0,0,0,0.2);
+  box-shadow: 0px 39px 40px -1px rgba(0,0,0,0.2);
 }
 
 .bg-right p {
@@ -321,4 +335,183 @@ footer span{
   left: 313px;
   letter-spacing: 1px;
   padding-top: 6px;
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .img-prin img{
+    right: 8px;
+  }
+  .checkbox input[type="checkbox"]{
+    top: -10px;
+  }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-prin{
+    height: 420px;
+  }
+  .line-two svg {
+    width: 400px;
+  }
+  .img-prin img {
+    right: -20px;
+    top: -108px;
+  }
+  .titl h4{
+    left: 0;
+  }
+  .line-tree {
+    right: 60px;
+  }
+  .checkbox input[type="checkbox"]{
+    top: -10px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .lading-container {
+    width: 700px;
+  }
+  .header {
+    height: auto;
+  }
+  .line{
+    position: relative;
+    margin-top: -70px;
+    right: 90px;
+  }
+  .jumbotron p {
+    padding: 9px 350px 0 5px;
+  }
+  .line-two{
+    top: 0;
+    position: absolute;
+    right: 24px;
+  }
+  .line-two svg{
+    width: 400px;
+  }
+  .img-prin {
+    height: 460px;
+  }
+  .img-prin img {
+    right: -10px;
+    top: -110px;
+  }
+  .titl h4 {
+    left: 60px;
+    bottom: 28px;
+  }
+  .line-tree{
+    position: absolute;
+    top: -16px;
+    width: 400px;
+    left: -180px;
+  }
+  .line-tree svg {
+    width: 800px;
+  }
+  .bg-left p {
+    padding: 0 62px 0 62px;
+  }
+  .bg-left img {
+    top: 190px;
+    left: 76px;
+  }
+  .bg-right p {
+    font-size: 11px;
+    padding: 0 62px 0 62px;
+    letter-spacing: 3px;
+  }
+  .titl-right {
+    height: 345px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lading-container {
+    width: 300px;
+  }
+  .line {
+    right: 10px;
+  }
+  .line svg {
+    width: 250px;
+  }
+  line-two{
+    display: none;
+  }
+
+  .jumbotron p {
+    padding: 0 0 30px 0;
+  }
+  .img-prin {
+    height: 170px;
+  }
+  .img-prin img {
+    right: 0px;
+    top: -60px;
+  }
+  .titl h4 {
+    padding: 0 10px;
+   }
+   .line-tree {
+     display: none;
+   }
+   .bg-left p {
+     padding: 0 10px 0 10px;
+   }
+   .bg-left img{
+     top: 335px;
+     left: 25px;
+   }
+   .bg-right p {
+     padding: 0 10px 0 10px;
+   }
+   .titl-left{
+     height: 320px;
+   }
+   .titl-right{
+     height: 160px;
+   }
+   .titl-right h4, .titl-right p {
+     padding-left: 17px;
+   }
+   .titl-right svg {
+     display: none;
+   }
+   .titl-contact{
+     height: 170px;
+   }
+   .titl-contact h3 {
+     padding-left: 0;
+   }
+   .titl-contact span {
+     left: 0;
+   }
+   .titl-contact svg {
+     display: none;
+   }
+   .checkbox label {
+     padding-left: 40px;
+   }
+   .checkbox input[type="checkbox"] {
+     top: -10px;
+   }
+   .boton {
+     width: 100%;
+     margin-bottom: 10px;
+   }
+
 }
