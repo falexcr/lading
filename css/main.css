@@ -9182,13 +9182,13 @@ a {
   color: #fff;
 }
 .lading-container {
-  width: 760px;
+  width: 826px;
   margin-right: auto;
   margin-left: auto;
 }
 .header {
   background-color: #000000;
-  height: 72px;
+  height: 80px;
 }
 #logo {
   text-transform: uppercase;
@@ -9196,10 +9196,10 @@ a {
   letter-spacing: 3pt;
   border-bottom: 2px solid #fccb8d;
   padding-right: 0;
-  font-size: 23px;
+  font-size: 26px;
   margin-left: 0;
   padding-top: 26px;
-  padding-bottom: 33px;
+  padding-bottom: 38px;
 }
 .navbar-inverse {
   background-color: transparent;
@@ -9215,15 +9215,15 @@ a {
   background-color: transparent;
 }
 #menu-main {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 10px;
-  font-size: 11px;
+  font-size: 12px;
 }
 #menu-main > li {
   display: inline-block;
 }
 #menu-main > li + li {
-  margin-left: 9px;
+  margin-left: 10px;
 }
 #menu-main > li > a {
   padding-right: 0;
@@ -9253,28 +9253,42 @@ a {
 .breadcrumb {
   background-color: transparent;
   padding-left: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 0;
 }
 .jumbotron p {
   color: #fff;
   text-align: left;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 3px;
-  padding: 0 70px 0 30px;
+  padding: 9px 70px 0 32px;
+}
+.marca {
+  background: url(../images/texture.png) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-transition: all 2s cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 2s cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 2s cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 2s cubic-bezier(0.42, 0, 0.58, 1);
 }
 .marca h2 {
   margin: 0;
   font-weight: 800;
-  padding: 11px 0 0 28px;
-  letter-spacing: 5px;
+  padding: 15px 0 0 28px;
+  letter-spacing: 9px;
   text-align: left;
   color: #fff;
 }
 .line {
   position: relative;
-  margin-top: -64px;
-  margin-left: -4px;
+  margin-top: -70px;
+  right: 47px;
+}
+.line-tree {
+  position: absolute;
+  top: -8px;
 }
 .line1 {
   stroke: #fff;
@@ -9284,24 +9298,122 @@ a {
   stroke: #333333;
   stroke-width: 2;
 }
+.line3 {
+  stroke: #000000;
+  stroke-width: 2;
+}
+.line4 {
+  stroke: #000000;
+  stroke-width: 5;
+}
 .img-prin {
   position: relative;
-  margin-top: -125px;
-  margin-left: 30px;
+  height: 550px;
 }
 .img-prin img {
+  position: absolute;
+  margin: auto;
   max-width: 100%;
   height: auto;
-  width: 810px;
+  width: 890px;
+  right: 109px;
+  top: -138px;
+}
+.titl {
+  position: relative;
+  height: 80px;
+}
+.titl h4 {
+  position: absolute;
+  letter-spacing: 4px;
+  left: 258px;
+  bottom: 19px;
 }
 .bg-primary {
   background-image: url("../images/images1.jpg");
   background-color: #000000;
+  padding-top: 61px;
+  padding-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-left p {
+  font-size: 11px;
+  padding: 0 60px 0 86px;
+  text-align: left;
+  letter-spacing: 3px;
+  margin-bottom: 17px;
+}
+.bg-left img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  width: 270px;
+  left: 100px;
+  -webkit-box-shadow: 0px 39px 40px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 39px 40px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 39px 40px -1px rgba(0, 0, 0, 0.2);
+}
+.bg-right p {
+  padding: 0px 86px 0 63px;
+  text-align: left;
+  font-size: 12px;
+}
+.titl-right {
+  padding: 0;
+  padding-left: 8px;
+  margin-top: 52px;
+  height: 206px;
+}
+.titl-right svg {
+  position: absolute;
+  right: 0;
+}
+.titl-right h4 {
+  letter-spacing: 4px;
+  text-align: left !important ;
+  margin: 0;
+  padding-left: 1px;
+  padding-top: 5px;
+}
+.titl-right p {
+  margin-top: 24px;
+  text-align: left;
+  padding-right: 100px;
+}
+.titl-contact {
+  position: relative;
+  height: 85px;
+}
+.titl-contact h3 {
+  position: absolute;
+  left: 0;
+  padding-left: 16px;
+  letter-spacing: 1px;
+}
+.titl-contact span {
+  bottom: 17px;
+  left: 18px;
+  position: absolute;
+  letter-spacing: 1.3px;
 }
 .frm {
+  margin-bottom: 4px;
+}
+.frm input {
   border: 0px solid #ccc;
   background-color: #e9e8e9;
   border-radius: 0;
+  font-size: 13px;
+  height: 28px;
+}
+.form-control {
+  border: 0px solid #ccc;
+  background-color: #e9e8e9;
+  border-radius: 0;
+  font-size: 13px;
+  height: 28px;
 }
 .terminos a {
   color: #000000;
@@ -9311,13 +9423,193 @@ a {
 }
 .boton {
   float: right;
+  right: 0 ;
+  background-color: #fccb8d;
+  padding: 2px 12px;
+  width: 125px;
+  border-radius: 0;
 }
 footer {
   background-color: #000000;
   padding: 30px 0;
-  margin: 20px;
+  margin: 20px
+  height:84px;
 }
 footer span {
-  text-align: left;
   color: #fff;
+  text-align: left;
+  left: 313px;
+  letter-spacing: 1px;
+  padding-top: 6px;
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .img-prin img {
+    right: 8px;
+  }
+  .checkbox input[type="checkbox"] {
+    top: -10px;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-prin {
+    height: 420px;
+  }
+  .line-two svg {
+    width: 400px;
+  }
+  .img-prin img {
+    right: -20px;
+    top: -108px;
+  }
+  .titl h4 {
+    left: 0;
+  }
+  .line-tree {
+    right: 60px;
+  }
+  .checkbox input[type="checkbox"] {
+    top: -10px;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .lading-container {
+    width: 700px;
+  }
+  .header {
+    height: auto;
+  }
+  .line {
+    position: relative;
+    margin-top: -70px;
+    right: 90px;
+  }
+  .jumbotron p {
+    padding: 9px 350px 0 5px;
+  }
+  .line-two {
+    top: 0;
+    position: absolute;
+    right: 24px;
+  }
+  .line-two svg {
+    width: 400px;
+  }
+  .img-prin {
+    height: 460px;
+  }
+  .img-prin img {
+    right: -10px;
+    top: -110px;
+  }
+  .titl h4 {
+    left: 60px;
+    bottom: 28px;
+  }
+  .line-tree {
+    position: absolute;
+    top: -16px;
+    width: 400px;
+    left: -180px;
+  }
+  .line-tree svg {
+    width: 800px;
+  }
+  .bg-left p {
+    padding: 0 62px 0 62px;
+  }
+  .bg-left img {
+    top: 190px;
+    left: 76px;
+  }
+  .bg-right p {
+    font-size: 11px;
+    padding: 0 62px 0 62px;
+    letter-spacing: 3px;
+  }
+  .titl-right {
+    height: 345px;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lading-container {
+    width: 300px;
+  }
+  .line {
+    right: 10px;
+  }
+  .line svg {
+    width: 250px;
+  }
+  line-two {
+    display: none;
+  }
+  .jumbotron p {
+    padding: 0 0 30px 0;
+  }
+  .img-prin {
+    height: 170px;
+  }
+  .img-prin img {
+    right: 0px;
+    top: -60px;
+  }
+  .titl h4 {
+    padding: 0 10px;
+  }
+  .line-tree {
+    display: none;
+  }
+  .bg-left p {
+    padding: 0 10px 0 10px;
+  }
+  .bg-left img {
+    top: 335px;
+    left: 25px;
+  }
+  .bg-right p {
+    padding: 0 10px 0 10px;
+  }
+  .titl-left {
+    height: 320px;
+  }
+  .titl-right {
+    height: 160px;
+  }
+  .titl-right h4,
+  .titl-right p {
+    padding-left: 17px;
+  }
+  .titl-right svg {
+    display: none;
+  }
+  .titl-contact {
+    height: 170px;
+  }
+  .titl-contact h3 {
+    padding-left: 0;
+  }
+  .titl-contact span {
+    left: 0;
+  }
+  .titl-contact svg {
+    display: none;
+  }
+  .checkbox label {
+    padding-left: 40px;
+  }
+  .checkbox input[type="checkbox"] {
+    top: -10px;
+  }
+  .boton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
