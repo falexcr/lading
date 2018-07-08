@@ -31,7 +31,7 @@ a{
 }
 
 .lading-container{
-  width: 760px;
+  width: 826px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -39,7 +39,7 @@ a{
 //Header,Nav and Jumbotron
 .header{
   background-color: @primary;
-  height: 72px;
+  height: 80px;
 }
 
 #logo {
@@ -48,10 +48,10 @@ a{
   letter-spacing: 3pt;
   border-bottom: 2px solid @secund;
   padding-right: 0;
-  font-size: 23px;
+  font-size: 26px;
   margin-left: 0;
   padding-top: 26px;
-  padding-bottom: 33px;
+  padding-bottom: 38px;
 }
 .navbar-inverse {
 
@@ -70,9 +70,9 @@ a{
   background-color: transparent;
 }
 #menu-main {
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 10px;
-  font-size: 11px;
+  font-size: 12px;
 
 }
 
@@ -80,7 +80,7 @@ a{
   display: inline-block;
 }
 #menu-main > li + li {
-  margin-left: 9px;
+  margin-left: 10px;
 }
 
 #menu-main > li > a {
@@ -112,31 +112,36 @@ a{
 .breadcrumb {
   background-color: transparent;
   padding-left: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   margin: 0;
 }
 .jumbotron p {
   text-align: left;
   color: @claro;
   text-align: left;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 3px;
-  padding: 0 70px 0 30px;
+  padding: 9px 70px 0 32px;
 }
 
 .marca h2 {
   margin: 0;
   font-weight: 800;
-  padding: 11px 0 0 28px;
-  letter-spacing: 5px;
+  padding: 15px 0 0 28px;
+  letter-spacing: 9px;
   text-align: left;
   color: @claro;
 }
 
 .line {
   position: relative;
-  margin-top: -64px;
+  margin-top: -70px;
   margin-left: -4px;
+}
+
+.line-tree{
+  position: absolute;
+  top: -8px;
 }
 
 .line1 {
@@ -147,37 +152,144 @@ a{
 .line2 {
   stroke: #333333;
   stroke-width:2;
-
+}
+.line3 {
+  stroke:@primary;
+  stroke-width:2;
+}
+.line4 {
+  stroke:@primary;
+  stroke-width:5;
 }
 
 //section 1
 
 .img-prin {
   position: relative;
-  margin-top: -125px;
-  margin-left: 30px;
+  height: 550px;
 }
 
 .img-prin img {
+  position: absolute;
+  margin: auto;
   max-width: 100%;
   height: auto;
-  width: 810px;
+  width: 890px;
+  right: 109px;
+  top: -138px;
 }
 
+.titl {
+  position: relative;
+  height: 80px;
+}
+
+.titl h4{
+  position: absolute;
+  letter-spacing: 4px;
+  left: 258px;
+  bottom: 19px;
+}
 //section 2
 .bg-primary {
   background-image: url("../images/images1.jpg");
-    background-color: @primary;
+  background-color: @primary;
+  padding-top: 61px;
+  padding-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-//contacto
+.bg-left p {
+  font-size: 11px;
+  padding: 0 60px 0 86px;
+  text-align: left;
+  letter-spacing: 3px;
+  margin-bottom: 17px;
+}
 
+.bg-left img {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  width: 270px;
+  left: 100px;
+}
+
+.bg-right p {
+  padding: 0px 86px 0 63px;
+  text-align: left;
+  font-size: 12px;
+}
+//contacto
+.titl-right {
+  padding: 0;
+  padding-left: 8px;
+  margin-top: 52px;
+  height: 206px;
+}
+
+.titl-right svg {
+  position: absolute;
+  right: 0;
+}
+
+.titl-right h4 {
+  letter-spacing: 4px;
+  text-align: left !important ;
+  margin: 0;
+  padding-left: 1px;
+  padding-top: 5px;
+}
+
+.titl-right p {
+  margin-top: 24px;
+  text-align: left;
+  padding-right: 100px;
+}
+
+.titl-contact {
+  position: relative;
+  height: 85px;
+}
+
+.titl-contact h3 {
+  position: absolute;
+  left: 0;
+  padding-left: 16px;
+  letter-spacing: 1px;
+}
+
+.titl-contact span {
+  bottom: 17px;
+  left: 18px;
+  position: absolute;
+  letter-spacing: 1.3px;
+}
 
 .frm{
+  margin-bottom: 4px;
+}
+
+.frm input{
   border: 0px solid #ccc;
   background-color: #e9e8e9;
   border-radius: 0;
+  font-size: 13px;
+  height: 28px;
 }
+
+.form-control{
+  border: 0px solid #ccc;
+  background-color: #e9e8e9;
+  border-radius: 0;
+  font-size: 13px;
+  height: 28px;
+
+}
+
+
 .terminos a {
   color: @primary;
 }
@@ -186,6 +298,12 @@ a{
 }
 .boton {
   float: right;
+  right: 0 ;
+  background-color: @secund;
+  padding: 2px 12px;
+  width: 125px;
+
+border-radius: 0;
 }
 //footer
 
@@ -193,9 +311,14 @@ footer{
   background-color: @primary;
   padding: 30px 0;
   margin: 20px
+  height:84px;
 }
 
 footer span{
   text-align: left;
   color: @claro;
+  text-align: left;
+  left: 313px;
+  letter-spacing: 1px;
+  padding-top: 6px;
 }
