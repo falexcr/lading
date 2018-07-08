@@ -17,23 +17,185 @@ body{
   width: 100%;
   height: 100%;
   text-align: center;
+  font-size: 12px;
 }
 
 //Tipografia
 h1, h2, h3, h4, h5, h6{
   text-transform: uppercase;
+
 }
 
-//Navegacion
+a{
+  color: @claro;
+}
+
+.lading-container{
+  width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+//Header,Nav and Jumbotron
+.header{
+  background-color: @primary;
+  height: 72px;
+}
+
+#logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3pt;
+  border-bottom: 2px solid @secund;
+  padding-right: 0;
+  font-size: 23px;
+  margin-left: 0;
+  padding-top: 26px;
+  padding-bottom: 33px;
+}
+.navbar-inverse {
+
+    background-color: transparent;
+    border-color: transparent;
+
+}
+.navbar-inverse .navbar-brand {
+  color: @claro;
+}
 
 .navbar{
   text-transform: uppercase;
 }
+.nav > li > a:hover {
+  background-color: transparent;
+}
+#menu-main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 11px;
 
-//pagina
-.intro{
-  color: @claro;
+}
+
+#menu-main > li {
+  display: inline-block;
+}
+#menu-main > li + li {
+  margin-left: 9px;
+}
+
+#menu-main > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-weight: bold;
+  color: @claro; /* IE8 proofing */
+  border-bottom: 2px solid transparent;
+  letter-spacing: 1pt;
+}
+#menu-main > li > a:hover,
+#menu-main > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: @secund;
+  border-bottom-color: @secund;
+}
+#menu-main > .active > a,
+#menu-main > .active > a:hover,
+#menu-main > .active > a:focus {
+  color: @secund;
+  border-bottom-color: @secund;
+}
+
+.jumbotron{
   background-color: @primary;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+.breadcrumb {
+  background-color: transparent;
+  padding-left: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.jumbotron p {
+  text-align: left;
+  color: @claro;
+  text-align: left;
+  font-size: 8px;
+  letter-spacing: 3px;
+  padding: 0 70px 0 30px;
+}
+
+.marca h2 {
+  margin: 0;
+  font-weight: 800;
+  padding: 11px 0 0 28px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: @claro;
+}
+
+.line {
+  position: relative;
+  margin-top: -64px;
+  margin-left: -4px;
+}
+
+.line1 {
+  stroke: @claro;
+  stroke-width:2;
+
+}
+.line2 {
+  stroke: #333333;
+  stroke-width:2;
+
+}
+
+//section 1
+
+.img-prin {
+  position: relative;
+  margin-top: -125px;
+  margin-left: 30px;
+}
+
+.img-prin img {
+  max-width: 100%;
+  height: auto;
+  width: 810px;
+}
+
+//section 2
+.bg-primary {
+  background-image: url("../images/images1.jpg");
+    background-color: @primary;
+}
+
+//contacto
+
+
+.frm{
+  border: 0px solid #ccc;
+  background-color: #e9e8e9;
+  border-radius: 0;
+}
+.terminos a {
+  color: @primary;
+}
+.check {
+  float: left;
+}
+.boton {
+  float: right;
+}
+//footer
+
+footer{
+  background-color: @primary;
+  padding: 30px 0;
+  margin: 20px
+}
+
+footer span{
+  text-align: left;
+  color: @claro;
 }
