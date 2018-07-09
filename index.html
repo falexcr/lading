@@ -15,28 +15,28 @@
 
   </head>
 
-  <body>
+  <body id="pagina-arriba" data-spy="scroll" data-target=".navbar-person">
     <header class="header">
       <div class="container">
         <div class="lading-container">
 
-          <nav class="navbar navbar-person navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
+          <nav class="navbar navbar-person navbar-inverse navbar-fixed-top ">
+            <div class="container-fluid lading-container">
+              <div class="navbar-header pagina-scroll ">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a id="logo" class=" navbar-brand" href="#">LOGOTIPO</a>
+                <a id="logo" class=" navbar-brand" href="#pagina-arriba">LOGOTIPO</a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul id="menu-main" class=" nav navbar-nav navbar-right">
-                  <li class="active"><a href="#productos">Productos</a></li>
-                  <li><a href="#marca">La Marca</a></li>
-                  <li><a href="#compra">¿Donde comprar?</a></li>
-                  <li><a href="#contacto">Contactanos</a></li>
+                  <li class="pagina-scroll"><a href="#productos">Productos</a></li>
+                  <li class="pagina-scroll"><a href="#marcas">La Marca</a></li>
+                  <li class="pagina-scroll"><a href="#comprar">¿Donde comprar?</a></li>
+                  <li class="pagina-scroll"><a href="#contacto">Contactanos</a></li>
                   <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
@@ -47,7 +47,7 @@
         </div>
       </div>
     </header>
-    <section>
+    <section id="productos">
       <div class="jumbotron">
         <div class="lading-container">
           <div class="container">
@@ -57,7 +57,7 @@
                   <li><a href="#">Inicio</a></li>
                   <li><a href="#">Productos</a></li>
                 </ol>
-                <div class="marca">
+                <div class="marca" id="marca">
                   <h2>La marca</h2>
                 </div>
                 <div class="line">
@@ -86,7 +86,7 @@
       </div>
     </section>
     <!-- -->
-    <section id="">
+    <section id="marcas">
       <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
@@ -111,7 +111,7 @@
     </section>
     <!--/ -->
     <!-- -->
-    <section class="bg-primary" id="nosotros">
+    <section class="bg-primary" id="comprar">
 	<div class="lading-container">
 		<div class="row">
       <div class="col-md-6 col-sm-6 col-xs-12 bg-left">
@@ -145,7 +145,7 @@
 </section>
     <!--/ -->
 <!-- -->
-<section>
+<section id="contacto">
   <div class="lading-container">
     <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-12 titl-left">
@@ -177,7 +177,7 @@
         <form>
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="form-group frm">
-              <input type="text" class="form-control " id="name" placeholder="NOMBRE:">
+              <input type="text" class="form-control " name="name" id="name" placeholder="NOMBRE:">
             </div>
             <div class="form-group frm">
               <select class="select form-control frm">
@@ -191,15 +191,15 @@
             </div>
             <div class="form-group frm">
 
-              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="TELÉFONO">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="TELÉFONO">
             </div>
           </div>
           <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="form-group frm">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="CORREO ELECTRÓNICO:">
+              <input type="email" class="form-control" name="email" id="email" placeholder="CORREO ELECTRÓNICO:">
             </div>
             <div class="form-group frm">
-              <input type="number" class="form-control" id="exampleInputEmail1" placeholder="NÚMERO DE DOCUMENTO:">
+              <input type="number" class="form-control" name="documento" id="documento" placeholder="NÚMERO DE DOCUMENTO:">
             </div>
               <div class="form-group check frm">
                   <div class="checkbox">
@@ -229,9 +229,8 @@
    <!-- Bootstrap core JavaScript
    ================================================== -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
    <script src="js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3.2/jquery.easing.compatibility.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3.2/jquery.easing.min.js"></script>
    <script src="js/main.js"> </script>
  </body>
 </html>

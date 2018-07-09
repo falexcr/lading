@@ -9190,6 +9190,10 @@ a {
   background-color: #000000;
   height: 80px;
 }
+.navbar-inverse {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
 #logo {
   text-transform: uppercase;
   font-weight: bold;
@@ -9612,4 +9616,9 @@ footer span {
     width: 100%;
     margin-bottom: 10px;
   }
+}
+.pagina-scroll {
+  -webkit-transition-duration: 1s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-duration: 1s;
 }
